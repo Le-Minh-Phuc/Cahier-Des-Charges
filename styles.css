@@ -1,4 +1,7 @@
-/* styles.css */
+/* -- Coded by Yann FORNIER -- */
+
+
+/* -- CSS of body -- */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -6,6 +9,8 @@ body {
     background: linear-gradient(to right, #4facfe, #00f2fe);
     color: #333;
 }
+
+/* -- CSS of header -- */
 header {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
@@ -37,6 +42,9 @@ header p {
     line-height: 1.6;
     color: #f5f5f5;
 }
+
+/* -- CSS of buttons -- */
+
 .btn {
     display: inline-block;
     margin-top: 20px;
@@ -65,6 +73,9 @@ footer p {
     font-size: 1em;
     color: #777;
 }
+
+/* -- CSS of images -- */
+
 .image-container {
     position: relative;
 }
@@ -73,7 +84,7 @@ footer p {
     position: absolute;
     top: 50px;
     left: 200px;
-    width: 300px; /* Ajustez la taille selon vos besoins */
+    width: 300px;
     height: auto;
 }
 
@@ -81,12 +92,19 @@ footer p {
     position: absolute;
     top: 70px;
     right: 200px;
-    width: 300px; /* Ajustez la taille selon vos besoins */
+    width: 300px;
+    height: auto;
+}
+
+.image-bottom{
+    position: absolute;
+    bottom: 15px;
+    width: 200px;
     height: auto;
 }
 
 p {
-    margin-top: 120px; /* Pour éviter le chevauchement avec les images */
+    margin-top: 120px;
     text-align: center;
 }
 
